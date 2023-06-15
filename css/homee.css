@@ -1,0 +1,328 @@
+body {
+    background: #f2f7fb;
+}
+
+
+
+
+/* ====nav bar=== */
+#barnav{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    /* padding: 15px; */
+    z-index: 1;
+}
+
+li a:hover {
+   
+    background: #eee;
+    color: rgb(226, 86, 43);
+    text-decoration: none;
+     
+ 
+ }
+ .nav-link{
+     font-weight: bold;
+ }
+
+/* banner */
+#banner{
+   
+    background-image: linear-gradient(to right, rgb(11, 243, 166),rgb(75, 250, 192),rgb(11, 243, 166));
+    padding:20px;
+
+}
+.contact{
+    text-align: right;
+}
+
+
+/* start scroling text */
+
+
+
+.news {
+    width: 160px
+}
+
+.news-scroll a {
+    text-decoration: none
+}
+
+.dot {
+    height: 6px;
+    width: 6px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 2px !important;
+    background-color: rgb(207, 23, 23);
+    border-radius: 50%;
+    display: inline-block
+}
+/* end scroll text */
+
+
+/* card link design */
+.line{
+    text-decoration: none;
+    color: red;
+}
+.line:hover{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* end linkkkkkkk design */
+
+/* card link design */
+.linee{
+    text-decoration: none;
+    color: white;
+}
+.linee:hover{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* end linkkkkkkk design */
+
+
+ /*================================ start cart======================== */
+
+ #exo{
+    position: absolute;
+    top:500px ;
+ }
+ #bts{
+    position: absolute;
+    top: 100px;
+ }
+.card {
+    position: absolute;
+    width: 350px;
+    border: none;
+    height: 350px;
+    border-radius: 3px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+   
+    
+    
+    
+}
+
+.p-info {
+    display: flex;
+    justify-content: space-between
+}
+
+.p-price {
+    position: absolute;
+    right: 10px;
+    top: 20px
+}
+
+
+
+.p-image img {
+    width: 240px;
+    transform: rotate(15deg);
+    transition: all 0.5s
+}
+
+.card:hover .heart i {
+    animation: heart 300ms ease-in forwards;
+    animation-delay: 500ms
+}
+
+.p-about {
+    position: absolute;
+    width: 170px;
+    font-size: 10px;
+    top: 140px;
+    left: -125px;
+    opacity: 0
+}
+
+.card:hover .p-about {
+    animation: content 300ms ease-in forwards
+}
+
+@keyframes content {
+    0% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1;
+        left: 25px
+    }
+}
+
+@keyframes heart {
+    0% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
+.card:hover .p-image img {
+    animation: onimage 300ms ease-in forwards
+}
+
+.card:hover .p-price {
+    animation: onprice 500ms ease-in forwards
+}
+
+@keyframes onprice {
+    0% {
+        right: 10px;
+        top: 20px
+    }
+
+    50% {
+        right: 60px;
+        top: 30px
+    }
+
+    100% {
+        right: 267px;
+        top: 70px
+    }
+}
+
+@keyframes onimage {
+    0% {
+        width: 250px
+    }
+
+    50% {
+        width: 200px;
+        transform: translateY(-30px);
+        transform: translateX(100px)
+    }
+
+    100% {
+        width: 180px;
+        top: 100px;
+        transform: translateY(100px);
+        transform: translateX(110px)
+    }
+}
+
+.buttons {
+    position: absolute;
+    bottom: -150px
+}
+
+.card:hover .buttons {
+    animation: buttons 500ms ease-in forwards
+}
+
+@keyframes buttons {
+    0% {
+        bottom: -100px
+    }
+
+    100% {
+        bottom: 20px
+    }
+}
+
+.btn {
+    height: 50px;
+    font-size: 16px;
+    width: 140px !important;
+    font-weight: 600
+}
+
+
+/* logout */
+
+/* .logout-button{
+    position: absolute;
+    margin-top: 900px;
+    justify-items:self-end;
+
+}
+.logout{
+    text-decoration: none;
+    color: white;
+}
+.logout:hover{
+    text-decoration: none;
+    color: white;
+} */
+
+.bs-example{
+    position: absolute;
+    margin-top: 900px;
+    
+    
+
+}
+.serve:hover{
+    text-decoration: none;
+    color: white; !important
+}
+.close:hover{
+    color: white;
+    background-color: rgb(207, 23, 23);
+}
+.modal-header{
+    background-image: linear-gradient(to right, rgb(11, 243, 166),rgb(108, 226, 187),rgb(11, 243, 166));
+
+}
+
+/* end logout */
+/* footer section */
+#footer{
+   
+    bottom: 0;
+   
+    background: linear-gradient(to right,rgba(0, 0,0,0.8),gray,rgba(0, 0,0,0.8));
+    height: 250px;
+    
+    
+}
+.link{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.link:hover{
+    text-decoration: none;
+    color: red;
+}
+.iconicon{
+    font-size: 60px;
+    color: white;
+}
+.fa-instagram:hover{
+    color: hotpink;
+}
+.fa-facebook:hover{
+    color:royalblue;
+}
+.fa-whatsapp:hover{
+    color: rgb(0, 255, 76);
+}
+.fa-twitter:hover{
+    color: cornflowerblue;
+}
+.fa-youtube:hover{
+    color: rgb(240, 16, 16);
+}
+.fa-linkedin:hover{
+    color: royalblue;
+}
+
+
+

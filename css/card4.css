@@ -1,0 +1,16 @@
+.flash{
+    height: 3px;
+    width: 80px;
+    background:red;
+}
+.qu{
+    font-style: italic;
+    font-weight: bolder;
+}
+.font{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+}
+p{
+    margin-top: 20px;
+}

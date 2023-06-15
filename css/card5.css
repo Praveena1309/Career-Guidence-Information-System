@@ -1,0 +1,25 @@
+.flash{
+    height: 3px;
+    width: 80px;
+    background:red;
+}
+ul{
+   
+    list-style: none;
+}
+/* i{
+    font-size:20px;
+    color:lightskyblue;
+} */
+
+img{
+    margin-left: 230px;
+}
+.font{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+}
+.qu{
+    font-style: italic;
+    font-weight: bolder;
+}

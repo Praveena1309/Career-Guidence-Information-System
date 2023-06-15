@@ -1,0 +1,48 @@
+.bar{
+    /* border: rgb(214, 65, 46); */
+    border-style:none;
+    border-width: 1px;
+    background-color: rgb(97, 175, 238);
+   
+
+}
+
+.bar-item{
+    font-weight:bold;
+    text-align: start;
+    background-color:  rgb(97, 175, 238);
+    border:unset;
+    
+}
+button{
+    text-transform:uppercase;
+}
+button:hover{
+    color: rgb(245, 37, 10);
+
+}
+
+
+/* =========== heading kai=========== */
+.kai{
+    background-color: rgb(214, 65, 46);
+    font-weight: bolder;
+}
+
+.oh:hover{
+    background-color: #eee;
+
+}
+
+.flash{
+    height: 3px;
+    width: 80px;
+    background:red;
+}
+
+.bold{
+    font-weight: bold;
+}
+.bolder{
+    color: blue;
+}
